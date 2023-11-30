@@ -1,0 +1,19 @@
+1. Download this zip folder and move it in your htdocs(if you are using XAMPP) / www(if you are using Wampserver) folder.
+
+2. start your XAMPP or WampServer
+
+3. Go to phpmyadmin and create a database with this name "ternary_test_project" and import the .sql file into it. 
+   You can find .sql file in this project folder named "ternary_test_project.sql".
+
+4. Then go to project folder and run cmd for this folder.
+
+5. Then write the command "php artisan serve" on the cmd console.
+
+6. You can also implement database in phpmyadmin by "php artisan migrate" command on cmd console, if you don't follow no.3.  
+ 
+7. Go to your browser and type "localhost:8000" to run this project.
+
+
+
+That's it! Thank you.
+
